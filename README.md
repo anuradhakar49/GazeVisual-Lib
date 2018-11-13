@@ -1,13 +1,14 @@
 # GazeVisual
-Repository for GazeVisual performance evaluation software tools
+Repository for the GazeVisual software tools
 
-The GazeVisual v1.1  is an open source graphical tool which is being currently developed to implement various metrics and visualizations for evaluating eye gaze datasets. It is in the form of a graphical user interface which will enable gaze researchers and general eye tracker users to effortlessly evaluate the data quality from their eye trackers. They can upload their gaze data to the software, estimate various gaze data accuracy metrics, generate visualizations and extract valuable information from their data to determine the capabilities and limits of their eye trackers.
+GazeVisual  is an open source graphical tool which is being developed to implement various metrics and visualizations for evaluating eye gaze datasets. It is in the form of a graphical user interface which will enable gaze researchers and general eye tracker users to effortlessly evaluate the data quality from their eye trackers. They can upload their gaze data to the software, estimate various gaze data accuracy metrics, generate visualizations and extract valuable information from their data to determine the capabilities and limits of their eye trackers.
 
-You can view a demo video of the software here showing some of its operations. gaze_45 and gaze_75 are eye gaze datasets (in CSV formats containing gaze x, y coordinates of a user) and the ground_truth.csv file provides the corresponding ground truth of visual targets used for gaze data collection. 
+You may view several demo videos of the  GazeVisual software showing its operations. Links to the demo videos are in the Demo Videos folder of this repository. Sample data may be downloaded from the link provided in the Sample data folder of this repository. 
 
-Keep checking this space for updates on the software and content uploads.
+GazeVisualApp is the web-application corresponding to the GazeVisual GUI tool and may be found at:
+http://gazevisual.pythonanywhere.com/ . It may be tested using one of the sample data CSV files. For this, please download one of the CSV files provided in the download link in the Sample data folder and upload it to the web-application to view results.
 
 Anuradha Kar
-
 National University of Ireland, Galway
+For any questions, please mail to : a.kar2@nuigalway.ie
 
