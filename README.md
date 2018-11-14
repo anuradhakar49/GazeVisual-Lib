@@ -1,7 +1,7 @@
 # GazeVisual
 Repository for the GazeVisual software tools
 
-GazeVisual  is an open source graphical tool which is being developed to implement various metrics and visualizations for evaluating eye gaze datasets. It is in the form of a graphical user interface which will enable gaze researchers and general eye tracker users to effortlessly evaluate the data quality from their eye trackers. They can upload their gaze data to the software, estimate various gaze data accuracy metrics, generate visualizations and extract valuable information from their data to determine the capabilities and limits of their eye trackers.
+GazeVisual  is a graphical tool which is being developed to implement various metrics and visualizations for evaluating eye gaze datasets. It is in the form of a graphical user interface which will enable gaze researchers and general eye tracker users to effortlessly evaluate the data quality from their eye trackers. They can upload their gaze data to the software, estimate various gaze data accuracy metrics, generate visualizations and extract valuable information from their data to determine the capabilities and limits of their eye trackers.
 
 You may view several demo videos of the  GazeVisual software showing its operations. Links to the demo videos are in the Demo Videos folder of this repository. Sample data may be downloaded from the link provided in the Sample data folder of this repository. 
 
