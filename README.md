@@ -8,7 +8,7 @@ You may view several demo videos of the  GazeVisual software showing its operati
 GazeVisualApp is the web-application corresponding to the GazeVisual GUI tool and may be found at:
 http://gazevisual.pythonanywhere.com/ . It may be tested using one of the sample data CSV files. For this, please download one of the CSV files provided in the download link in the Sample data folder and upload it to the web-application to view results.
 
-Anuradha Kar
-National University of Ireland, Galway
+Anuradha Kar,
+National University of Ireland, Galway,
 For any questions, please mail to : a.kar2@nuigalway.ie
 
