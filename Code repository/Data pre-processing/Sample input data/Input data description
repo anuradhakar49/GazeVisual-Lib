@@ -1,0 +1,12 @@
+#################################################################
+Three csv files, which can be used to test the main_proc.py Python code are uploaded here.
+The c file contains the centralized on screen gaze data coordinates and timestamps for each data point
+The l file contains the position of the left eye on screen during gaze data collection
+The r file contains the position of the  right eye on screen during gaze data collection
+
+Input files to main_proc.py should have formats as these files and stored in one folder
+Naming convention for the files should be: desc1_dist_desc2_desc3.csv 
+where "desc1", "desc2","desc3" are descriptive phrases for the data file. "desc1" must have 4 letters, dist must have 2 letters
+representing user-tracker distance in cm.
+
+Input gaze x,y coordinates (of the c file) should have value 0,0 at the center of the display screen (i.e. gaze data coordinates should have origin at the display screen center. 
