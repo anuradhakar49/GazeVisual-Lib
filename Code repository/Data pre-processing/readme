@@ -2,7 +2,7 @@
 ###########################################################################################
 In this folder, there are four Python or .py files which perform the following functions : 
 
-1)main_proc.py: This python code implements a set of calculations to estimate gaze angular, gaze yaw and pitch accuracies from raw gaze data samples taken from an eye tracker and corresponding  ground truth locations. Input for this python file are a centered gaze data file and left and right eye gaze data files. (a sample input file set: us01_70_c_desk_01.csv, us01_70_c_desk_01.csv, us01_70_c_desk_01.csv is provided within this folder, where 70 is the user distance from the tracker)
+1)main_proc.py: This python code implements a set of calculations to estimate gaze angular, gaze yaw and pitch accuracies from raw gaze data samples taken from an eye tracker and corresponding  ground truth locations. Input for this python file are a ground truth data file along with centered gaze data file and left and right eye position data files. (a sample input file set is provided within the Sample input data sub-folder within this folder). The ground truth data file is also provided.
 
 2)outlier_removal.py: This file implements three different outlier detection and removal strategies on collected gaze data. These methods can be used on the output CSV file of the main_proc.py program, for example by loading the data from the "GAZE ANG" column to display and remove outliers. 
 
