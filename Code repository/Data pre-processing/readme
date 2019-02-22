@@ -8,7 +8,7 @@ In this folder, there are four Python or .py files which perform the following f
 
 3)data_augmentation.py: Six different methods for synthesizing gaze angular data variables from an original gaze data file (such as the output of the main_proc.py) are presented in the code named data_augmentation.py. These methods include addition of white and coloured noise, data interpolation, time-shifting, data convolution with cosine kernels and a combination of these. 
 
-The input file to main_proc.py must follow the convention: desc1_dis_desc2_desc3.csv where "desc1", "desc2","desc3" are  descriptive phrases for the data file. "desc1" must have 4 letters.
+The input file to main_proc.py must follow the convention: desc1_dist_desc2_desc3.csv where "desc1", "desc2","desc3" are  descriptive phrases for the data file. "desc1" must have 4 letters. dist must have 2 letters which represent the user-tracker distance.
 
 Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is used in all the rest of the codes as input data.
  
