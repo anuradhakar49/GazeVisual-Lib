@@ -1,1 +1,3 @@
+#############################################################################################
+This folder contains the source code for the GazeVisual GUI tool software. GazeVisual is designed for the complete evaluation of eye trackers, and implements a suite of statistical and visualization functions for in depth analysis of eye tracker data. The software of GazeVisual comes in the form of a graphical user interface (GUI) and contains a range of functions that can be used to input and process gaze data files and produce various gaze accuracy metric results and visualizations. It can generate visual stimuli to collect sample data from an eye tracker and can be directly interfaced with an eye tracker to collect data samples.
 
