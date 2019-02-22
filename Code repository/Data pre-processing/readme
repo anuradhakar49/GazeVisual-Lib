@@ -10,5 +10,5 @@ In this folder, there are four Python or .py files which perform the following f
 
 The input file to main_proc.py must follow the convention: desc1_dist_desc2_desc3.csv where "desc1", "desc2","desc3" are  descriptive phrases for the data file. "desc1" must have 4 letters. dist must have 2 letters which represent the user-tracker distance.
 
-Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is used in all the rest of the codes as input data.
+Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is used in all the rest of the codes as input data. A sample user_data_proc.csv file is uploaded in this folder.
  
