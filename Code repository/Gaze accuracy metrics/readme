@@ -7,3 +7,4 @@ In this folder there is a sample gaze data file (named user_data_proc.csv, which
 
 3. spatial_density.py: This code may be used to estimate the spatial distribution of gaze angular errors on the display screen. The code outputs the gaze error density values as a coloured heatmap plot.
 
+ 
