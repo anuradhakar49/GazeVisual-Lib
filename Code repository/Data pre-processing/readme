@@ -1,14 +1,14 @@
 
 ###########################################################################################
-In this folder, there are four Python or .py files which perform the following functions : 
+In this folder, there are three Python or .py files which perform the following functions : 
 
-1)main_proc.py: This python code implements a set of calculations to estimate gaze angular, gaze yaw and pitch accuracies from raw gaze data samples taken from an eye tracker and corresponding  ground truth locations. Input for this python file are a ground truth data file along with centered gaze data file and left and right eye position data files. (a sample input file set is provided within the Sample input data sub-folder within this folder). The ground truth data file is also provided.
+1)main_proc.py: This python code implements a set of calculations to estimate gaze angular, gaze yaw and pitch accuracies from raw gaze data samples taken from an eye tracker and corresponding  ground truth locations. Input for this python file are a ground truth data file along with centered gaze data file and left and right eye position data files. (a sample input file set is provided within the "Sample input data" sub-folder within this folder. The ground truth data file is also provided.)
 
 2)outlier_removal.py: This file implements three different outlier detection and removal strategies on collected gaze data. These methods can be used on the output CSV file of the main_proc.py program, for example by loading the data from the "GAZE ANG" column to display and remove outliers. 
 
 3)data_augmentation.py: Six different methods for synthesizing gaze angular data variables from an original gaze data file (such as the output of the main_proc.py) are presented in the code named data_augmentation.py. These methods include addition of white and coloured noise, data interpolation, time-shifting, data convolution with cosine kernels and a combination of these. 
 
-The input file to main_proc.py must follow the convention: desc1_dist_desc2_desc3.csv where "desc1", "desc2","desc3" are  descriptive phrases for the data file. "desc1" must have 4 letters. dist must have 2 letters which represent the user-tracker distance.
+Sample files that can be input to the main_proc.py code are in the "Sample input data" subfolder of this folder (all four need to be used). Any other gaze data sources must be named and formatted in the same way for input to the main_proc.py file.
 
-Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is used in all the rest of the codes as input data. A sample user_data_proc.csv file is uploaded in this folder.
+Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is to be used in all the rest of the codes as input data. A sample user_data_proc.csv file is uploaded in this folder.
  
