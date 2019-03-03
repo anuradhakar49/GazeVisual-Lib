@@ -2,7 +2,7 @@
 """
 Created on Fri Mar  1 17:05:42 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 
 ###### scatter_density.py ################
@@ -18,7 +18,7 @@ from scipy.stats import gaussian_kde
 
 x=[]
 y=[]
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
