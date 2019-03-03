@@ -7,3 +7,5 @@ In this folder there is a sample gaze data file (user_data_proc.csv, output of t
 
 3. 3D_histogram.py: This Python code plots stacked data distributions using data from two or more gaze data columns in a single plot. It helps to understand and compare data patterns from the different columns. Data can also be imported from different files for comparison.
 
+For any queries, mail: a.kar2@nuigalway.ie, anuradha.kar49@gmail.com
+
