@@ -2,7 +2,7 @@
 """
 Created on Thu Feb 28 17:21:33 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 
 ###### data_statistics.py ################
@@ -26,7 +26,7 @@ tim_rel=[]
 gaze_gt=[]
 gaze_ang=[]
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
