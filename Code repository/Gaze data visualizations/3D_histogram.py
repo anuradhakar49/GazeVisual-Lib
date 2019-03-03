@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  3 01:58:45 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 
 ###### 3D_histogram.py ################
@@ -23,7 +23,7 @@ gaze_yaw=[]
 gaze_pitch=[]
 gaze_ang=[]
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
