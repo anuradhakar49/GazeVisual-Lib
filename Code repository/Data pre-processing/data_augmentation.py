@@ -2,14 +2,7 @@
 """
 Created on Fri Feb 15 17:10:51 2019
 
-@author: 14233242
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 29 14:14:15 2018
-
-@author: 14233242
+@author: Anuradha Kar
 """
 ###### data_augmentation.py ################
 ## This is the program to implement 7 different augmentation strategies on gaze data
@@ -44,7 +37,7 @@ gaze_inp=[]
 dff=[]
 gaze_ang=[]
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
