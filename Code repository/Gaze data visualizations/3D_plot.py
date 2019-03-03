@@ -6,7 +6,7 @@ Created on Sun Mar  3 01:41:35 2019
 """
 ###### 3D_plot.py ################
 ## This program plots the 3D distribution of gaze error values (in degrees)
-## over the display screen area (in pixels) using data from the input gaze csv file.
+## over the display screen XY dimensions(in pixels).
 ## For implementation of this code , the CSV file named user_data_proc.csv is used
 
 #############################################
