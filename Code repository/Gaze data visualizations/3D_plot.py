@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  3 01:41:35 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 ###### 3D_plot.py ################
 ## This program plots the 3D distribution of gaze error values (in degrees)
@@ -23,7 +23,7 @@ gt_x=[]
 gt_y=[]
 gaze_err=[]
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
