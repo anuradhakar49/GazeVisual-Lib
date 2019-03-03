@@ -2,7 +2,7 @@
 """
 Created on Fri Feb 15 15:31:41 2019
 
-@author: 14233242
+@author: Anuradha Kar
 
 """
 
@@ -32,10 +32,10 @@ res_x = 1680 # this is the horizontal or X resolution of the display
 res_y= 1050 # this is the verticall or Y resolution of the display 
 mmpix = 0.28 # this is the pixel pitch calculated using Eqn 3 of the above reference
     
-fpath = "C:/Users/14233242/Documents/Python Scripts/repo_codes/pre"  #folder path where gaze data and ground truth are stored
+fpath = "C:/Users/Documents/Python Scripts/pre"  #folder path where gaze data and ground truth are stored
 
 ### Load ground truth data####
-with open('C:/Users/14233242/Documents/Python Scripts/ground_truth_data.csv','r') as csvfile:
+with open('C:/Users/Documents/Python Scripts/ground_truth_data.csv','r') as csvfile:
     gts = csv.reader(csvfile, delimiter=',')
     gt_x= []
     gt_y=[]
@@ -57,9 +57,9 @@ for file in os.listdir(fpath):
     str1 = '_'.join(map(str,[parts[0],parts[1]]) )
     str2= '_'.join(map(str,[parts[3],parts[4]]) )
     #print file, str1, str2  
-    f_name_c = os.path.join("C:/Users/14233242/Documents/Python Scripts/repo_codes/pre",str1+ "_c_"+ str2)
-    f_name_r = os.path.join("C:/Users/14233242/Documents/Python Scripts/repo_codes/pre",str1+ "_r_"+ str2)
-    f_name_l = os.path.join("C:/Users/14233242/Documents/Python Scripts/repo_codes/pre",str1+ "_l_"+ str2)
+    f_name_c = os.path.join("C:/Users/Documents/Python Scripts/pre",str1+ "_c_"+ str2)
+    f_name_r = os.path.join("C:/Users/Documents/Python Scripts/pre",str1+ "_r_"+ str2)
+    f_name_l = os.path.join("C:/Users/Documents/Python Scripts/pre",str1+ "_l_"+ str2)
     
     with open(f_name_c,'r') as csvfile:   # open the gaze centered coordinates file and load data
         x=[]
@@ -143,7 +143,7 @@ for file in os.listdir(fpath):
     egp = [np.sqrt(q3) for q3 in sum1] 
     mon_dim= (res_y/2)* mmpix
     x_sq = [q3**2 for q3 in mean_eye_x]
-    y_1 = [q4+mon_dim for q4 in mean_eye_y]  ##### monitor dimensions used in calculating. 147 = (1050/2 ) 0.28 (res/2)*mmperpix
+    y_1 = [q4+mon_dim for q4 in mean_eye_y] 
     y_sq = [q5**2 for q5 in y_1]
     sum2= np.array(x_sq)+np.array(y_sq)+np.array(z_sq)
     eet = [np.sqrt(q6) for q6 in sum2] 
