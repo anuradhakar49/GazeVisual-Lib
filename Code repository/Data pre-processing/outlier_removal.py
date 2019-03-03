@@ -2,7 +2,7 @@
 """
 Created on Mon Dec 10 15:33:44 2018
 
-@author: 14233242
+@author: Anuradha Kar
 """
 ###### outlier_removal.py ################
 ## This is the program to implement 3 different outlier removal strategies on gaze data
@@ -32,7 +32,7 @@ gaze_gt=[]
 
 ###load gaze angle and ground truth data from from user_proc_desk.csv file#####
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
