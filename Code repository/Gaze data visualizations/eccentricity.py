@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  3 03:12:18 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 
 ###### eccentricity.py ################
@@ -23,7 +23,7 @@ gt_yaw=[]
 gt_pitch=[]
 gaze_er=[]
 
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
