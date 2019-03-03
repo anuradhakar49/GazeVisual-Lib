@@ -6,4 +6,6 @@ In this folder there is a sample gaze data file (named user_data_proc.csv, which
 2. data_similarity.py: This code computes the similarity between data from different eye trackers, experiments or data from a test experiment and reference data. The similarity calculation is based on correlation, intersection and Bhattacharya distance computed on histograms of two gaze datasets
 
 3. scatter_density.py: This code may be used to estimate and display the spatial distribution of gaze data on the display screen. 
+
+For any queries, mail: a.kar2@nuigalway.ie, anuradha.kar49@gmail.com
  
