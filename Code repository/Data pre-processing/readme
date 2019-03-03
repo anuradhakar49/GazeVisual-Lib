@@ -11,4 +11,6 @@ In this folder, there are three Python or .py files which perform the following 
 Sample files that can be input to the main_proc.py code are in the "Sample input data" subfolder of this folder (all four need to be used). Any other gaze data sources must be named and formatted in the same way for input to the main_proc.py file.
 
 Output of running the main_proc.py is a CSV file named user_data_proc.csv which contains various data fields. This data file is to be used in all the rest of the codes as input data. A sample user_data_proc.csv file is uploaded in this folder.
+
+For any queries, mail: a.kar2@nuigalway.ie, anuradha.kar49@gmail.com
  
