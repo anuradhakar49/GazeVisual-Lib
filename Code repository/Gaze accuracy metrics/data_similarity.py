@@ -2,7 +2,7 @@
 """
 Created on Fri Mar  1 16:14:22 2019
 
-@author: 14233242
+@author: Anuradha Kar
 """
 ###### data_similarity.py ################
 ## This program calculates similarity between data from different gaze datasets
@@ -22,7 +22,7 @@ from scipy import signal
 
 gaze_ang=[]
 yaw_ang=[]
-with open('C:/Users/14233242/Documents/Python Scripts/repo_codes/user_data_proc.csv','r') as csvfile:   
+with open('C:/Users/Documents/Python Scripts/user_data_proc.csv','r') as csvfile:   
     datavals = csv.reader(csvfile, delimiter=',')
     datavals.next()
     for r1 in datavals:
