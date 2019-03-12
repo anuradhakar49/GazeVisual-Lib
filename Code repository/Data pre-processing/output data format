@@ -1,0 +1,13 @@
+The output of the main_proc.py file is a CSV file (named user_data_proc.csv) which contains the following sixteen header fields and data in corresponding columns:
+"TIM REL","GTX", "GTY","XRAW", "YRAW","GT Xmm", "GT Ymm","Xmm", "Ymm","YAW GT", "YAW DATA","PITCH GT", "PITCH DATA","GAZE GT","GAZE ANG", "DIFF GZ"
+
+The meanings of the header fields are as follows:
+TIM REL: relative time stamp for each gaze data point in the file (measured during data collection)
+"GTX", "GTY": Ground truth x, y positions in pixels
+"XRAW", "YRAW": Raw gaze data x, y coordinates in pixels
+"GT Xmm", "GT Ymm": Ground truth x, y positions in mm, converted using the pixel pitch value
+"Xmm", "Ymm": Gaze x, y positions in mm, converted using the pixel pitch value
+ "YAW GT", "YAW DATA": Ground truth and estimated yaw angles from input gaze data
+"PITCH GT", "PITCH DATA": Ground truth and estimated pitch angles from input gaze data
+"GAZE GT","GAZE ANG": Ground truth and estimated gaze angles from input gaze data
+"DIFF GZ": Difference between ground truth and estimated gaze angles, i.e. Gaze angular accuracy
