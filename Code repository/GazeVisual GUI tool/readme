@@ -8,5 +8,8 @@ The input data for the software should follow a certain format. The input data f
 
 Gaze data input columns or any other column must not have blank entries, the display center for gaze data collection should be chosen as the data origin. Sample input CSV files for the software are included in this folder (e.g. usr1_60_gazedata.csv). Header fields for each data column in input CSV files for the GazeVisual software must kept as in these sample files.
 
-To run this software, Python 2.7 and the following libraries need to be installed in a users computer:Python libraries Tkinter, Pygame, Statsmodels, Seaborn , CSV, Pandas, Sklearn. Scipy, Numpy, Matplotlib, PIL. Then the source code may be downloaded and run as a usual Python code and the GUI will be produced. To test the software, one of the input files provided in this folder may be used. 
+To run this software, Python 2.7 and the following libraries need to be installed in a users computer:Python libraries Tkinter, Pygame, Statsmodels, Seaborn , CSV, Pandas, Sklearn. Scipy, Numpy, Matplotlib, PIL. Then the source code may be downloaded and run as a usual Python code and the GUI will be produced. To test the software, one of the sample input files provided in this folder may be used. Note that directly downloading the CSV files sometime causes problems, so copy the contents of the sample input files to an empty CSV file and save it to use it with the software. Else data from the following download link may be used:
+
+Sample data link:
+https://1drv.ms/f/s!AnJPJrn6UpiohnwTsfYSz9MYQdQ8
 
