@@ -19,6 +19,12 @@ The codes need sample gaze data collected from an eye tracker whose data quality
 # Usage
 If a user has sample eye gaze data (in pixel coordinates) they need to format their gaze data as shown in the sample input files included in the "Gaze data pre-processing" folder and run the main_proc.py file on them to create an output CSV file with processed gaze data. This output CSV file can then be used with the remaining data evaluation codes. For using the GazeVisual GUI tool, sample gaze and ground truth data has to be formatted in the way shown in the “GazeVisual GUI Tool” folder and saved as a CSV file. This file can then be used with the software to view results.
 
+Note that directly downloading the CSV files may sometime cause problems, so copy the contents of the sample input files provided in the repository to an empty CSV file and save it to use it with the codes and software. Else sample data from the following download link may be used:
+
+Sample data link:
+https://1drv.ms/f/s!AnJPJrn6UpiohnwTsfYSz9MYQdQ8
+
+
 Anuradha Kar,
 National University of Ireland, Galway,
 For any questions, please mail to : a.kar2@nuigalway.ie
