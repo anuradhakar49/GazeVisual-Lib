@@ -1,6 +1,8 @@
 
 ###########################################################################################
-In this folder, there are three Python or .py files which perform the following functions : 
+In this folder, there are three Python or .py files. All codes are released under GNU General Public License v3.0.
+
+The codes perform the following functions : 
 
 1)main_proc.py: This python code implements a set of calculations to estimate gaze angular, gaze yaw and pitch accuracies from raw gaze data samples taken from an eye tracker and corresponding  ground truth locations. Input for this python file are a ground truth data file along with centered gaze data file and left and right eye position data files. (a sample input file set is provided within the "Sample input data" sub-folder within this folder. The ground truth data file is also provided.)
 
