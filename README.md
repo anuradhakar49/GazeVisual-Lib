@@ -24,7 +24,9 @@ Note that directly downloading the CSV files may sometime cause problems, so cop
 Sample data link:
 https://1drv.ms/f/s!AnJPJrn6UpiohnwTsfYSz9MYQdQ8
 
-March 2019
+# Version info
+GazeVisual-Lib Version v1.0, March 2019. 
+
 Anuradha Kar, 
 National University of Ireland, Galway.
 For any questions, please mail to : a.kar2@nuigalway.ie
