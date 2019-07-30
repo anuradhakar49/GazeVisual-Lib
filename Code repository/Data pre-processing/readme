@@ -1,6 +1,8 @@
 
 ###########################################################################################
 In this folder, there are three Python or .py files. All codes are released under GNU General Public License v3.0.
+The Jupyter notebook Data pre-processing.ipynb also contains all the codes.
+Install all the Python libraries first, change the path variables and then run the codes.
 
 The codes perform the following functions : 
 
