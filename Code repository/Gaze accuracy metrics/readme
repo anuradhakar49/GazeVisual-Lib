@@ -1,4 +1,7 @@
 #######################################################################
+In this folder, there are three Python or .py files. All codes are released under GNU General Public License v3.0. The Jupyter notebook
+Gaze accuracy metrics.ipynb also contains all the codes.
+Install all the Python libraries first, change the path variables and then run the codes.
 In this folder there is a sample gaze data file (named user_data_proc.csv, which is produced from the main_proc.py program) and three python files which may be used to compute gaze data statistics, similarity between gaze datasets and gaze data scatter density on the display screen where gaze was tracked. All codes are released under GNU General Public License v3.0.
 
 1. data_statistics.py: This Python file calculates mean, standard and median absolute deviation, confidence intervals and Zscore from the input gaze csv file.
