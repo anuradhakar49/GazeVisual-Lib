@@ -1,4 +1,7 @@
 ###########################################################################################
+In this folder, there are three Python or .py files. All codes are released under GNU General Public License v3.0. The Jupyter notebook      Gaze data visualizations.ipynb also contains all the codes.
+Install all the Python libraries first, change the path variables and then run the codes.
+
 In this folder there is a sample gaze data file (user_data_proc.csv, output of the main_proc.py program) and three python codes that implement various gaze data/error visualizations.  All codes are released under GNU General Public License v3.0.
 
 1. 3D_plot.py : This Python code creates a 3D plot showing the magnitude of gaze errors (plotted along Z axis) as a function of X and Y dimensions of the display screen. 
