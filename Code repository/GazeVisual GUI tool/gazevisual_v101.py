@@ -87,10 +87,6 @@ t.geometry('1010x700')
 initialdir= "C:/Users/Documents/Python Scripts/GazeVisual-Lib-master/Code repository/GazeVisual GUI tool"
 imgpath = "C:/Users/Documents/Python Scripts/GazeVisual-Lib-master/Code repository/GazeVisual GUI tool"
 
-
-#initialdir= "/Users/akar/Documents/python scripts/GazeVisual-Lib-master/Code_repository/GazeVisual GUI tool"
-#imgpath = "/Users/akar/Documents/python scripts/GazeVisual-Lib-master/Code_repository/GazeVisual GUI tool/"
-
  
 class GUI():
     
