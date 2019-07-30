@@ -1,9 +1,10 @@
 #############################################################################################
 This folder contains the source code for the GazeVisual GUI tool software. GazeVisual is designed for the complete evaluation of eye trackers, and implements a suite of statistical and visualization functions for in depth analysis of eye tracker data. The software of GazeVisual comes in the form of a graphical user interface (GUI) application and contains a range of functions that can be used to input and process gaze data files and produce various gaze accuracy metric results and visualizations. It can generate visual stimuli to collect sample data from an eye tracker and can be directly interfaced with an eye tracker to collect data samples.
 
-This is released under GNU General Public License v3.0.
+The gazevisual_v101.ipynb can also be used to run the GUI software. Install all the Python libraries first, change the path variables and then run the codes.
+This code is released under GNU General Public License v3.0.
 
-The input data for the software should follow a certain format. The input data file format is CSV (comma separated values).  The first two columns must contain the x, y pixel values of ground truth data, then two columns of gaze x, y pixel coordinates, followed by a column having the data point timestamps. Then two columns should have the X, Y resolution of the display area used for collecting the data
+The input data for the software must follow the specified format. The input data file format is CSV (comma separated values).  The first two columns must contain the x, y pixel values of ground truth data, then two columns of gaze x, y pixel coordinates, followed by a column having the data point timestamps. Then two columns should have the X, Y resolution of the display area used for collecting the data
 (ResX and ResY). Next a column having screen pixel size (μ), a column specifying user-tracker distance (in mm), and finally a column with a data identifier, e.g. user /experiment name have to be included.
 
 Gaze data input columns or any other column must not have blank entries, the display center for gaze data collection should be chosen as the data origin. Sample input CSV files for the software are included in this folder (e.g. usr1_60_gazedata.csv). Header fields for each data column in input CSV files for the GazeVisual software must kept as in these sample files.
